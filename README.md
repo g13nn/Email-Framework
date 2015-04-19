@@ -3,6 +3,6 @@
 
 This is a HTML email framework developed to help you build bulletproof responsive HTML email templates.  Choose from grid options or pre-built modules to build your templates, including a complete module master template.
 
-You can find out more information by visiting the documentation page http:/www.emailframe.work
+You can find out more information by visiting the documentation page http://www.emailframe.work
 
 
