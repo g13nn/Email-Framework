@@ -72,7 +72,7 @@ font-family:Arial,serif; margin:0; padding:0; min-width:100%; -webkit-text-size-
         </td>
     </tr>
     <tr>
-        <td height="10" style="font-size:10px; line-height:10px;"></td><!-- Spacer -->
+        <td height="10" style="font-size:10px; line-height:10px;"></td> <!-- Spacer -->
     </tr>                        
 </table> 
 <!-- End Wrapper  -->      
