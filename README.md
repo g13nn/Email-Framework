@@ -1,9 +1,7 @@
 # Email-Framework
 ##### Version 1.0.1
 
-The HTML email framework developed to help you build bulletproof responsive HTML email templates.  Choose from grid options or pre-built modules to build your templates, including a complete module & grid master template.
-
-This HTML email framework support's over 40+ email clients and has been thoroughly tested using Litmus.
+The HTML email framework developed to help you build bulletproof responsive HTML email templates by coping & pasting the grid options or pre-built modules to build your templates, including a complete module & grid master template. This HTML email framework support's over 40+ email clients and has been thoroughly tested using Litmus.
 
 ##Getting Started
 
