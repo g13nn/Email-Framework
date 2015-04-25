@@ -109,7 +109,7 @@ font-family:Arial,serif; margin:0; padding:0; min-width:100%; -webkit-text-size-
                                 </td>               
                             </tr>
                              <tr>
-                                <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td><!-- Spacer -->
+                                <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td> <!-- Spacer -->
                             </tr>                             
                             <tr>
                                 <td class="mobile" style="font-size:14px; line-height:20px;">
