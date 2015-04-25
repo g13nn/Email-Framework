@@ -19,7 +19,3 @@ table { border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-r
 *[class="mobileOff"] { width: 0px !important; display: none !important; }
 *[class*="mobileOn"] { display: block !important; max-height: none !important; }
 }
-        
-@media only screen and (max-width: 500px) {
- }
-} 
