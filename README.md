@@ -9,7 +9,7 @@ To get started download the latest version of the Email Framework & visit the do
 
 ###Support
 
-Need some help, or have a question.  Get in touch :
+Need some help, or have a question.  Get in touch:
 
 * <hello@glennsmith.me>
 * <@g13nnsmith>
