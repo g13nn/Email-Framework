@@ -14,7 +14,7 @@ table { border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-r
 .wrapper{ width:320px; padding: 0 !important; }  
 .header{ width:320px; padding: 0 !important; background-image: url(http://placehold.it/320x400) !important; }   
 .container{ width:300px;  padding: 0 !important; }
-.mobile{ width:300px; display:block; padding: 0 !important; text-align:center; }
+.mobile{ width:300px; display:block; padding: 0 !important;}
 .mobile50{ width:300px; padding: 0 !important; text-align:center; }
 *[class="mobileOff"] { width: 0px !important; display: none !important; }
 *[class*="mobileOn"] { display: block !important; max-height:none !important; }
