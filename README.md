@@ -12,7 +12,6 @@ To get started download the latest version of the Email Framework & visit the do
 Need some help, or have a question.  Get in touch:
 
 * <hello@glennsmith.me>
-* <@g13nnsmith>
 * [Submit an Issue](https://github.com/g13nn/Email-Framework/issues/new "Title")
 
 ###License
