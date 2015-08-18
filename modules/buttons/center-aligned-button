@@ -1,9 +1,0 @@
-<!-- Start Button -->
-<table width="200" height="36" cellspacing="0" cellpadding="0" border="0" align="center" class="deviceWidth">
-    <tr>
-		<td width="200" valign="middle" height="36" bgcolor="#222222" align="center" class="deviceWidth" style="font-family: Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 18px; text-decoration: none; color: #FFFFFF; line-height: 24px;">
-			<a align="center" target="_blank" href="" style="text-align: center; text-transform: uppercase; text-decoration:none; color: #FFFFFF; line-height: 24px;" alias="cta-single-btn">BUTTON &gt;</span></a>
-		</td>
-	</tr>
-</table>
-<!-- End Button -->  
