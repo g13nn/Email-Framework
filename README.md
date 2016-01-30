@@ -1,6 +1,6 @@
 # Email-Framework
 
-The HTML email framework developed to help you build responsive HTML email templates. Supported on over 40+ email clients.
+The HTML email framework developed to help you build responsive HTML email templates.
 
 ###Getting Started
 
