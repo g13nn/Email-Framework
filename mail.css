@@ -1,34 +1,22 @@
-/* CLIENT-SPECIFIC STYLES */
-body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-img { -ms-interpolation-mode: bicubic; }
+.ReadMsgBody { width: 100%; background-color: #F6F6F6; }
+.ExternalClass { width: 100%; background-color: #F6F6F6; }
+body { width: 100%; background-color: #f6f6f6; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; font-family: Arial, Times, serif }
+table { border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 
-/* RESET STYLES */
-img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-table { border-collapse: collapse !important; }
-body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+@-ms-viewport{ width: device-width; }
 
-/* iOS BLUE LINKS */
-a[x-apple-data-detectors] {
-color: inherit !important;
-text-decoration: none !important;
-font-size: inherit !important;
-font-family: inherit !important;
-font-weight: inherit !important;
-line-height: inherit !important;
+@media only screen and (max-width: 639px){
+.wrapper{ width:100%;  padding: 0 !important; }
 }
 
-/* ANDROID CENTER FIX */
-div[style*="margin: 16px 0;"] { margin: 0 !important; }
-
-/* MEDIA QUERIES */
 @media only screen and (max-width: 480px){
-.center{ margin:0 auto !important; }
-.img{ width:100% !important; height:auto; }
+.centerClass{ margin:0 auto !important; }
+.imgClass{ width:100% !important; height:auto; }
 .wrapper{ width:320px; padding: 0 !important; }
 .header{ width:320px; padding: 0 !important; background-image: url(http://placehold.it/320x400) !important; }
 .container{ width:300px;  padding: 0 !important; }
 .mobile{ width:300px; display:block; padding: 0 !important; text-align:center !important;}
+.mobile50{ width:300px; padding: 0 !important; text-align:center; }
 *[class="mobileOff"] { width: 0px !important; display: none !important; }
 *[class*="mobileOn"] { display: block !important; max-height:none !important; }
 }
