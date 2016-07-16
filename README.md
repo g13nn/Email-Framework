@@ -1,6 +1,6 @@
-# Email-Framework
+# Email Framework
 
-The HTML email framework developed to help you build responsive HTML email templates.
+The HTML Email Framework developed to help you build responsive HTML email templates.
 
 ###Getting Started
 
@@ -17,7 +17,7 @@ Need some help, or have a question.  Get in touch:
 ###License
 
 ```
-Copyright (C) 2015 Glenn Smith
+Copyright (C) 2016 Glenn Smith
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
@@ -38,5 +38,3 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-
