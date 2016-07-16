@@ -38,3 +38,65 @@
   </tr>
 </table>
 <!-- END NAVIGATION -->
+
+<!-- Add the follow css to your style tag in the head -->
+
+<!--
+
+input { display:none; }
+@media (max-width:480px) {
+#logo {height:28px !important;
+  margin-top:3px;
+}
+.main-table, .main-content img { width:100% !important;}
+#navcontainer{
+  position:relative;
+}
+#navcontainer th{
+  display:block;
+  width: 100%;
+  border-bottom:2px solid #333333;
+  height:18px;
+  padding: 10px 0px;      
+}
+#menucontainer{
+  position:relative;
+  overflow:hidden;
+}
+#navcontainer table{
+  margin-top:-500px;
+  -ms-transition: margin-top .5s ease-in-out;
+  -webkit-transition: margin-top .5s ease-in-out;      
+}
+/* checkbox mechanism */
+#navcheckbox:checked + table{
+  margin-top:0%;
+}      
+/* fallback hover mechanism */
+.nav-over,.nav-under{
+ display:block !important;
+ max-height:none !important;
+ padding-top:3px;
+ padding-bottom:3px;
+} 
+.nav-over img,.nav-under img{
+ display:block;
+ float:right;
+ margin-right:5px;
+} 
+/*
+to deal with quirks in windows 8.1 and Outlook iOS
+*/
+.nav-over{
+ -ms-transition-delay: 1.5s;
+ -webkit-transition-delay: 1.5s;            
+}
+#navcontainer > .nav-over:hover + div table{
+  margin-top:0% !important;
+}
+#navcontainer > .nav-over:hover{
+  visibility:hidden;
+}
+} 
+
+-->
