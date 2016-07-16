@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <tr>
-	<td height="$1" style="font-size:$1px; line-height:$1px;">&nbsp;</td>
+  <td height="$1" style="font-size:$1px; line-height:$1px;">&nbsp;</td>
 </tr>
 ]]></content>
 <tabTrigger>space</tabTrigger>
