@@ -1,0 +1,17 @@
+
+<snippet>
+  <content><![CDATA[
+<!--[if !mso]><!-- -->
+<div class="mobileOn" style="font-size: 0; max-height: 0; overflow: hidden; display: none">                
+  <table width="320" cellspacing="0" cellpadding="0" border="0" class="mobile" align="center">    
+    <tr>
+      <td align="center" style="color: #000000; font-size: 12px; line-height: 18px;">
+        $1
+      </td>
+    </tr>
+  </table>                                                                    
+</div>                                                                    
+<!--<![endif]-->
+]]></content>
+<tabTrigger>mobileblock</tabTrigger>
+</snippet>
