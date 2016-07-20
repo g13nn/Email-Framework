@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<td height="$1" style="font-size:$1px; line-height:$1px;" class="mobileOn">&nbsp;</td>
+]]></content>
+<tabTrigger>mspace</tabTrigger>
+</snippet>
