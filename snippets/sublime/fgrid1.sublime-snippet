@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<table width="640" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:640px; width:100%;" bgcolor="#FFFFFF">
+  <tr>
+    <td align="center" valign="top" style="padding:10px;">
+      
+      <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:600px; width:100%;">
+        <tr>
+          <td align="center" valign="top" style="padding:10px;">
+            $1
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+]]></content>
+<tabTrigger>fgrid1</tabTrigger>
+</snippet>
