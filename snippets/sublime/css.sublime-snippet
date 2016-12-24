@@ -1,14 +1,14 @@
 <snippet>
-    <content><![CDATA[
+<content><![CDATA[
 /* CLIENT-SPECIFIC STYLES */
 body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 img { -ms-interpolation-mode: bicubic; }
-    
+
 /* RESET STYLES */
-img { border: 0; line-height: 100%; outline: none; text-decoration: none; }
+img { border: 0; outline: none; text-decoration: none; }
 table { border-collapse: collapse !important; }
-body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
 
 /* iOS BLUE LINKS */
 a[x-apple-data-detectors] {
@@ -20,15 +20,15 @@ a[x-apple-data-detectors] {
   line-height: inherit !important;
 }
 
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
 /* MEDIA QUERIES */
-@media only screen and (max-width: 639px){
+@media all and (max-width:639px){ 
   .wrapper{ width:320px!important; padding: 0 !important; }
   .container{ width:300px!important;  padding: 0 !important; }
   .mobile{ width:300px!important; display:block!important; padding: 0 !important; }
-  .mobile50{ width:150px!important; padding: 0 !important; }
-  .center{ margin:0 auto !important; text-align:center !important; }
-  .img{ width:100% !important; height:auto; }
-  .header{ width:320px; padding: 0 !important; background-image: url(http://placehold.it/320x400) !important; }
+  .img{ width:100% !important; height:auto !important; }
   *[class="mobileOff"] { width: 0px !important; display: none !important; }
   *[class*="mobileOn"] { display: block !important; max-height:none !important; }
 }
