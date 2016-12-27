@@ -404,7 +404,7 @@
       <table width="200" height="44" cellpadding="0" cellspacing="0" border="0" bgcolor="#2b3a63" style="border-radius:4px;">
         <tr>
           <td align="center" valign="middle" height="44" style="font-family: Arial, sans-serif; font-size:14px; font-weight:bold;">
-            <a href="#" target="_blank" style="font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;">Button</a>
+            <a href="$1" target="_blank" style="font-family: Arial, sans-serif; color:#ffffff; display: inline-block; text-decoration: none; line-height:44px; width:200px; font-weight:bold;">$2</a>
           </td>
         </tr>
       </table>
