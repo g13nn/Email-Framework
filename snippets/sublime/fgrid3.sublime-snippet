@@ -7,13 +7,13 @@
       <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:600px; width:100%;">
         <tr>
           <td width="200" align="center" valign="top" style="padding:10px;">
-            Grid 3
+            $1
           </td>
           <td width="200" align="center" valign="top" style="padding:10px;">
-            Grid 3
+            $2
           </td>
           <td width="200" align="center" valign="top" style="padding:10px;">
-            Grid 3
+            $3
           </td>
         </tr>
       </table>
