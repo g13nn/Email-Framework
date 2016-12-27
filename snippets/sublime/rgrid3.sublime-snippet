@@ -10,13 +10,13 @@
       <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
         <tr>
             <td width="200" class="mobile" align="center" valign="top">
-              Grid Three
+              $1
             </td>
             <td width="200" class="mobile" align="center" valign="top">
-              Grid Three
+              $2
             </td>
             <td width="200" class="mobile" align="center" valign="top">
-              Grid Three
+              $3
             </td>
         </tr>
       </table>
