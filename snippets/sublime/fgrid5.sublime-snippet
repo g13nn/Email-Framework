@@ -7,19 +7,19 @@
       <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:600px; width:100%;">
         <tr>
           <td width="120" align="center" valign="top" style="padding:10px;">
-            Grid 5
+            $1
           </td>
           <td width="120" align="center" valign="top" style="padding:10px;">
-            Grid 5
+            $2
           </td>
           <td width="120" align="center" valign="top" style="padding:10px;">
-            Grid 5
+            $3
           </td>
           <td width="120" align="center" valign="top" style="padding:10px;">
-            Grid 5
+            $4
           </td>
           <td width="120" align="center" valign="top" style="padding:10px;">
-            Grid 5
+            $5
           </td>
         </tr>
       </table>
@@ -28,5 +28,5 @@
   </tr>
 </table>
 ]]></content>
-<tabTrigger>fgrid4</tabTrigger>
+<tabTrigger>fgrid5</tabTrigger>
 </snippet>
