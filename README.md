@@ -17,7 +17,7 @@ Need some help, or have a question.  Get in touch:
 ###License
 
 ```
-Copyright (C) 2016 Glenn Smith
+Copyright (C) 2017 Glenn Smith
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
