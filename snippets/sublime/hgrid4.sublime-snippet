@@ -1,0 +1,63 @@
+<snippet>
+<content><![CDATA[
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" valign="top" width="150">
+<![endif]-->
+  
+<table width="150" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#FFFFFF" class="wrapper">
+  <tr>
+    <td align="center" valign="top">
+      Grid Four
+    </td>
+  </tr>
+</table>
+ 
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td align="center" valign="top" width="150">
+<![endif]-->
+  
+<table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
+  <tr>
+    <td align="center" valign="top">
+      Grid Four
+    </td>
+  </tr>
+</table>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td align="center" valign="top" width="150">
+<![endif]-->
+   
+ <table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
+   <tr>
+     <td align="center" valign="top">
+       Grid Four
+     </td>
+   </tr>
+ </table>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td align="center" valign="top" width="150">
+<![endif]-->
+    
+  <table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
+    <tr>
+      <td align="center" valign="top">
+        Grid Four
+      </td>
+    </tr>
+  </table>
+ 
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+]]></content>
+<tabTrigger>hgrid4</tabTrigger>
+</snippet>
