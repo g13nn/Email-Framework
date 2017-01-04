@@ -1,63 +1,116 @@
 <snippet>
 <content><![CDATA[
-<!--[if (gte mso 9)|(IE)]>
-<table width="600" cellpadding="0" cellspacing="0" border="0">
 <tr>
-<td align="center" valign="top" width="150">
-<![endif]-->
-  
-<table width="150" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#FFFFFF" class="wrapper">
+<td align="center" valign="top" width="100%">
+  <!--[if (gte mso 9)|(IE)]>
+  <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
   <tr>
-    <td align="center" valign="top">
-      $1
-    </td>
-  </tr>
-</table>
- 
-<!--[if (gte mso 9)|(IE)]>
-</td>
-<td align="center" valign="top" width="150">
-<![endif]-->
-  
-<table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
-  <tr>
-    <td align="center" valign="top">
-      $2
-    </td>
-  </tr>
-</table>
-
-<!--[if (gte mso 9)|(IE)]>
-</td>
-<td align="center" valign="top" width="150">
-<![endif]-->
-   
- <table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
-   <tr>
-     <td align="center" valign="top">
-       $3
-     </td>
-   </tr>
- </table>
-
-<!--[if (gte mso 9)|(IE)]>
-</td>
-<td align="center" valign="top" width="150">
-<![endif]-->
-    
-  <table width="150" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
+  <td align="center" valign="top" width="600">
+  <![endif]-->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#ffffff">
     <tr>
-      <td align="center" valign="top">
-        $4
-      </td>
+      <td align="center" valign="top" style="font-size:0;">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <tr>
+        <td align="left" valign="top" width="300">
+        <![endif]-->
+        <div style="display:inline-block; max-width:300px; width:100%;">
+
+          <!--[if (gte mso 9)|(IE)]>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" width="300">
+          <tr>
+          <td align="left" valign="top" width="150">
+          <![endif]-->
+          <div style="display:inline-block; max-width:150px; vertical-align:top; width:100%;">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:150px;">
+              <tr>
+                <td align="center" valign="top" style="font-size:14px;">
+
+                  $1
+
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <td align="left" valign="top" width="150">
+          <![endif]-->
+          <div style="display:inline-block; max-width:150px; vertical-align:top; width:100%;">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:150px;">
+              <tr>
+                <td align="center" valign="top" style="font-size:14px;">
+
+                  $2
+
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        <td align="left" valign="top" width="300">
+        <![endif]-->
+          <div style="display:inline-block; max-width:300px; vertical-align:top; width:100%;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="300">
+            <tr>
+            <td align="left" valign="top" width="150">
+            <![endif]-->
+            <div style="display:inline-block; max-width:150px; width:100%;">
+              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:150px;">
+                <tr>
+                  <td align="center" valign="top" style="font-size:14px;">
+
+                    $3
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            <td align="left" valign="top" width="150">
+            <![endif]-->
+            <div style="display:inline-block; max-width:150px; vertical-align:top; width:100%;">
+              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:150px;">
+                <tr>
+                  <td align="center" valign="top" style="font-size:14px;">
+
+                    $4
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </td>
+      </tr>
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
     </tr>
-  </table>
- 
-<!--[if (gte mso 9)|(IE)]>
-</td>
+    </table>
+    <![endif]-->
+  </td>
 </tr>
-</table>
-<![endif]-->
 ]]></content>
 <tabTrigger>hgrid4</tabTrigger>
 </snippet>
