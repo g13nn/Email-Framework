@@ -9,7 +9,7 @@
   <table width="200" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#FFFFFF" class="wrapper">
     <tr>
       <td align="center" valign="top">
-        Grid Three
+        $1
       </td>
     </tr>
   </table>
@@ -22,7 +22,7 @@
   <table width="200" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
     <tr>
       <td align="center" valign="top">
-        Grid Three
+        $2
       </td>
     </tr>
   </table>
@@ -35,7 +35,7 @@
    <table width="200" cellpadding="0" cellspacing="0" border="0" align="right" bgcolor="#FFFFFF" class="wrapper">
      <tr>
        <td align="center" valign="top">
-        Grid Three
+        $3
        </td>
      </tr>
    </table>
