@@ -2,19 +2,19 @@
 
 The HTML Email Framework developed to help you build responsive HTML email templates.
 
-###Getting Started
+### Getting Started
 
 * [Documentation](http://emailframe.work "Title")
 * [Download](https://github.com/g13nn/Email-Framework/archive/master.zip "Title")
 
-###Support
+### Support
 
 Need some help, or have a question.  Get in touch:
 
 * <hello@glennsmith.me>
 * [Submit an Issue](https://github.com/g13nn/Email-Framework/issues/new "Title")
 
-###License
+### License
 
 ```
 Copyright (C) 2017 Glenn Smith
