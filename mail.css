@@ -30,3 +30,62 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
   *[class="mobileOff"] { width: 0px !important; display: none !important; }
   *[class*="mobileOn"] { display: block !important; max-height:none !important; }
 }
+
+/* DARK MODE STYLES */
+:root {
+  color-scheme: light dark;
+  supported-color-schemes: light dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media ( prefers-color-scheme: dark ) {
+
+  body { background-color: #262626 !important; }
+  [data-ogsb] body { background-color: #262626 !important; } 
+
+  table { background-color: #212121 !important; }
+  [data-ogsb] table { background-color: #212121 !important; } 
+
+  .logo-light { display:none; display:none !important; }
+  [data-ogsc] .logo-light { display:none !important; }
+
+  .logo-dark { display:block !important; }
+  [data-ogsc] .logo-dark { display:block !important; }
+
+  h1 { color: #FFFFFF !important; }
+  [data-ogsc] h1 { color: #FFFFFF !important; }
+
+  h2 { color: #FFFFFF !important; }
+  [data-ogsc] h2 { color: #ffffff !important; }
+
+  h3 { color: #FFFFFF !important; }
+  [data-ogsc] h3 { color: #FFFFFF !important; }
+
+  h4 { color: #FFFFFF !important; }
+  [data-ogsc] h4 { color: #FFFFFF !important; }
+
+  h5 { color: #FFFFFF !important; }
+  [data-ogsc] h5 { color: #FFFFFF !important; }
+
+  h6 { color: #FFFFFF !important; }
+  [data-ogsc] h6 { color: #FFFFFF !important; }
+
+  .hr { background:#FFFFFF!important; }
+  [data-ogsc] .hr { background:#FFFFFF!important; }
+
+  p { color: #ffffff !important; }
+  [data-ogsc] p { color: #FFFFFF !important; }
+
+  li  { color: #FFFFFF !important; }
+  [data-ogsc] li { color: #FFFFFF !important; }
+  
+  li>span { color: #FFFFFF !important; }
+  [data-ogsc] li>span { color: #FFFFFF !important; } 
+
+  .link { color: #FFFFFF !important; }
+  [data-ogsc] .link { color: #FFFFFF !important; }
+
+  .button { background-color: #FFFFFF !important; color:#000000!important; }
+  [data-ogsb] .button { background-color: #FFFFFF !important; color:#000000!important; }
+  
+}

@@ -1,180 +1,298 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
-<meta charset="UTF-8">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark">
-<title>Hybrid Grid Master</title>
-<style type="text/css">
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">  
+  <title>Hybrid Grid Master</title>
+  <style type="text/css">
 
-  table td { border: 1px solid cyan;}  
-  @media only screen and (max-width: 600px) {
-    .wrapper{width:95% !important;}
-  }   
+    table td { border: 1px solid cyan;}  
+    @media only screen and (max-width: 600px) {
+      .wrapper{width:95% !important;}
+    }   
 
-</style>
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+
+    /* RESET STYLES */
+    img { border: 0; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
+    /* MEDIA QUERIES */
+    @media all and (max-width:639px){ 
+      .wrapper{ width:320px!important; padding: 0 !important; }
+      .container{ width:300px!important;  padding: 0 !important; }
+      .mobile{ width:300px!important; display:block!important; padding: 0 !important; }
+      .img{ width:100% !important; height:auto !important; }
+      *[class="mobileOff"] { width: 0px !important; display: none !important; }
+      *[class*="mobileOn"] { display: block !important; max-height:none !important; }
+    }
+
+    /* DARK MODE STYLES */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    @media ( prefers-color-scheme: dark ) {
+
+      body { background-color: #262626 !important; }
+      [data-ogsb] body { background-color: #262626 !important; } 
+
+      table { background-color: #212121 !important; }
+      [data-ogsb] table { background-color: #212121 !important; } 
+
+      .logo-light { display:none; display:none !important; }
+      [data-ogsc] .logo-light { display:none !important; }
+
+      .logo-dark { display:block !important; }
+      [data-ogsc] .logo-dark { display:block !important; }
+
+      h1 { color: #FFFFFF !important; }
+      [data-ogsc] h1 { color: #FFFFFF !important; }
+
+      h2 { color: #FFFFFF !important; }
+      [data-ogsc] h2 { color: #ffffff !important; }
+
+      h3 { color: #FFFFFF !important; }
+      [data-ogsc] h3 { color: #FFFFFF !important; }
+
+      h4 { color: #FFFFFF !important; }
+      [data-ogsc] h4 { color: #FFFFFF !important; }
+
+      h5 { color: #FFFFFF !important; }
+      [data-ogsc] h5 { color: #FFFFFF !important; }
+
+      h6 { color: #FFFFFF !important; }
+      [data-ogsc] h6 { color: #FFFFFF !important; }
+
+      .hr { background:#FFFFFF!important; }
+      [data-ogsc] .hr { background:#FFFFFF!important; }
+
+      p { color: #ffffff !important; }
+      [data-ogsc] p { color: #FFFFFF !important; }
+
+      li  { color: #FFFFFF !important; }
+      [data-ogsc] li { color: #FFFFFF !important; }
+      
+      li>span { color: #FFFFFF !important; }
+      [data-ogsc] li>span { color: #FFFFFF !important; } 
+
+      .link { color: #FFFFFF !important; }
+      [data-ogsc] .link { color: #FFFFFF !important; }
+
+      .button { background-color: #FFFFFF !important; color:#000000!important; }
+      [data-ogsb] .button { background-color: #FFFFFF !important; color:#000000!important; }
+      
+    }
+
+  </style>
+
+  <!--[if gte mso 9]>     
+    <xml>       
+      <o:OfficeDocumentSettings>         
+        <o:AllowPNG/>         
+        <o:PixelsPerInch>96</o:PixelsPerInch>       
+      </o:OfficeDocumentSettings>     
+    </xml>     
+  <![endif]-->
+  
+  <!--[if mso]>     
+    <style type="text/css">       
+      body, table, td {
+        font-family : Arial, helvetica, sans-serif;             
+      }
+    </style>     
+  <![endif]-->  
+
 </head>
 <body style="margin:0; padding:0; background-color:#F8F8F8">
-<center>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F8F8" class="wrapper">
-    
-  <tr>
-    <td align="center" height="100%" valign="top" width="100%">
-      <!--[if (gte mso 9)|(IE)]>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+  <div style="display:none;">Preheader Text</div>
+
+  <center>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F8F8" class="wrapper">
+        
       <tr>
-      <td align="center" valign="top" width="600">
-      <![endif]-->
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#ffffff">
+        <td align="center" height="100%" valign="top" width="100%">
+          <!--[if (gte mso 9)|(IE)]>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
           <tr>
-            <td align="center" valign="top" style="font-size:14px;">
+          <td align="center" valign="top" width="600">
+          <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#ffffff">
+              <tr>
+                <td align="center" valign="top" style="font-size:14px;">
 
-              Grid One
+                  Grid One
 
-            </td>
+                </td>
+              </tr>
+            </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
           </tr>
-        </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
+          </table>
+          <![endif]-->
+        </td>
       </tr>
-      </table>
-      <![endif]-->
-    </td>
-  </tr>
 
-  <tr>
-    <td align="center" valign="top" width="100%">
-
-      <!--[if (gte mso 9)|(IE)]>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
       <tr>
-      <td align="center" valign="top" width="600">
-      <![endif]-->
-      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#FFFFFF">
-        <tr>
-          <td align="center" valign="top" style="font-size:0;">
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <td align="center" valign="top" width="100%">
+
+          <!--[if (gte mso 9)|(IE)]>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+          <tr>
+          <td align="center" valign="top" width="600">
+          <![endif]-->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#FFFFFF">
             <tr>
-            <td align="left" valign="top" width="295">
-            <![endif]-->
-            <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
-              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
+              <td align="center" valign="top" style="font-size:0;">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
                 <tr>
-                  <td align="center" valign="top" style="font-size:14px;">
+                <td align="left" valign="top" width="295">
+                <![endif]-->
+                <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
+                    <tr>
+                      <td align="center" valign="top" style="font-size:14px;">
 
-                    Grid Two
+                        Grid Two
 
-                  </td>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                <td align="left" valign="top" width="295">
+                <![endif]-->
+                <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
+                    <tr>
+                      <td align="center" valign="top" style="font-size:14px;">
+
+                        Grid Two  
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
                 </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            <td align="left" valign="top" width="295">
-            <![endif]-->
-            <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
-              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
-                <tr>
-                  <td align="center" valign="top" style="font-size:14px;">
-
-                    Grid Two  
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
+                </table>
+                <![endif]-->
+              </td>
             </tr>
-            </table>
-            <![endif]-->
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
           </td>
-        </tr>
-      </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
+          </tr>
+          </table>
+          <![endif]-->
+
+        </td>
       </tr>
-      </table>
-      <![endif]-->
 
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" valign="top" width="100%">
-      <!--[if (gte mso 9)|(IE)]>
-      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
       <tr>
-      <td align="center" valign="top" width="600">
-      <![endif]-->
-      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#FFFFFF">
-        <tr>
-          <td align="center" valign="top" style="font-size:0;">
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <td align="center" valign="top" width="100%">
+          <!--[if (gte mso 9)|(IE)]>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+          <tr>
+          <td align="center" valign="top" width="600">
+          <![endif]-->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#FFFFFF">
             <tr>
-            <td align="left" valign="top" width="195">
-            <![endif]-->
-            <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
-              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
+              <td align="center" valign="top" style="font-size:0;">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
                 <tr>
-                  <td align="center" valign="top" style="font-size:14px;">
+                <td align="left" valign="top" width="195">
+                <![endif]-->
+                <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
+                    <tr>
+                      <td align="center" valign="top" style="font-size:14px;">
 
-                    Grid Three
+                        Grid Three
 
-                  </td>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                <td align="left" valign="top" width="195">
+                <![endif]-->
+                <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
+                    <tr>
+                      <td align="center" valign="top" style="font-size:14px;">
+
+                        Grid Three
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                <td align="left" valign="top" width="195">
+                <![endif]-->
+                <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
+                    <tr>
+                      <td align="center" valign="top" style="font-size:14px;">
+
+                        Grid Three
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
                 </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            <td align="left" valign="top" width="195">
-            <![endif]-->
-            <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
-              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
-                <tr>
-                  <td align="center" valign="top" style="font-size:14px;">
-
-                    Grid Three
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            <td align="left" valign="top" width="195">
-            <![endif]-->
-            <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
-              <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
-                <tr>
-                  <td align="center" valign="top" style="font-size:14px;">
-
-                    Grid Three
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
+                </table>
+                <![endif]-->
+              </td>
             </tr>
-            </table>
-            <![endif]-->
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
           </td>
-        </tr>
-      </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </td>
       </tr>
-      </table>
-      <![endif]-->
-    </td>
-  </tr>
 
-</table>
-</center>
+    </table>
+  </center>
+
 </body>
 </html>
